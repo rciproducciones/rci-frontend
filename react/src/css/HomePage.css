@@ -1,0 +1,9 @@
+.logocontainer {
+    height: 750px;
+    display: flex;
+    justify-content: center;
+}
+.logorci {
+    height: 10%;
+    width: auto;
+}
