@@ -9,7 +9,7 @@ function HomePage() {
         <img className="logorci" src={logorci} alt="Logo RCI" />
       </div>
 
-      <div className="navbar bg-base-100 flex justify-center">
+      <div className="navbar bg-zinc-50 flex justify-center">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
@@ -29,7 +29,7 @@ function HomePage() {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-zinc-50 rounded-box w-52"
           >
             <li>
               <a>Inicio</a>
