@@ -1,11 +1,15 @@
 import "../css/App.css";
 import "../css/HomePage.css";
 import logorci from "../assets/images/logorci.png";
+import Carousel from "../components/Carousel";
 
 function HomePage() {
   return (
     <>
-      <div class="logocontainer">
+    <>
+    <Carousel></Carousel>
+    </>
+      <div className="logocontainer">
         <img className="logorci" src={logorci} alt="Logo RCI" />
       </div>
 
