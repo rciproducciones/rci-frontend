@@ -1,0 +1,25 @@
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Agregado para centrar verticalmente */
+}
+
+.film-card {
+  padding: 30px;
+  max-width: 50vw;
+}
+
+.other-info {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 0 auto;
+  max-width: 30vw;
+}
+
+.trailer {
+  padding: 0px 10px 30px 10px;
+  max-width: 50vw;
+}

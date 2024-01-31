@@ -3,6 +3,7 @@ import HomePage from "./HomePage.jsx";
 import Films from "./Films.jsx";
 import AboutUs from "./AboutUs.jsx";
 import Contact from "./Contact.jsx";
+import FilmDetails from "./FilmDetails.jsx";
 import "../pages/App.jsx";
 import "../css/App.css"
 
@@ -15,6 +16,7 @@ function App() {
     <Route path="/peliculas" element={<Films />} />
     <Route path="/nosotras" element={<AboutUs />} />
     <Route path="/contacto" element={<Contact />} />
+    <Route path="/filmId" element={<FilmDetails />} />
 
     </Routes>
 

@@ -3,11 +3,13 @@ import { Link } from "react-router-dom";
 import logorci from "../assets/images/logorci.png";
 
 function Header() {
-    return(
-        <>
+  return (
+    <>
+      <Link to="/">
         <div className="logocontainer">
-        <img className="logorci" src={logorci} alt="Logo RCI" />
-      </div>
+          <img className="logorci" src={logorci} alt="Logo RCI" />
+        </div>
+      </Link>
 
       <div className="navbar bg-zinc-50 flex justify-center">
         <div className="dropdown">
@@ -32,16 +34,16 @@ function Header() {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-zinc-50 rounded-box w-52"
           >
             <li>
-            <Link to="/">Inicio</Link>
+              <Link to="/">Inicio</Link>
             </li>
             <li>
-            <Link to="/peliculas">Películas</Link>
+              <Link to="/peliculas">Películas</Link>
             </li>
             <li>
-            <Link to="/nosotras">Nosotras</Link>
+              <Link to="/nosotras">Nosotras</Link>
             </li>
             <li>
-            <Link to="/contacto">Contacto</Link>
+              <Link to="/contacto">Contacto</Link>
             </li>
           </ul>
         </div>
@@ -49,22 +51,22 @@ function Header() {
         <div className="hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-            <Link to="/">Inicio</Link>
+              <Link to="/">Inicio</Link>
             </li>
             <li>
-            <Link to="/peliculas">Películas</Link>
+              <Link to="/peliculas">Películas</Link>
             </li>
             <li>
-            <Link to="/nosotras">Nosotras</Link>
+              <Link to="/nosotras">Nosotras</Link>
             </li>
             <li>
-            <Link to="/contacto">Contacto</Link>
+              <Link to="/contacto">Contacto</Link>
             </li>
           </ul>
         </div>
       </div>
-      </>
-    )
+    </>
+  );
 }
 
 export default Header;
