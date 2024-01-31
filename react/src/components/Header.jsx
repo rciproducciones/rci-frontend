@@ -1,4 +1,5 @@
 import "../css/Header.css";
+import { Link } from "react-router-dom";
 import logorci from "../assets/images/logorci.png";
 
 function Header() {
@@ -31,13 +32,13 @@ function Header() {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-zinc-50 rounded-box w-52"
           >
             <li>
-              <a>Inicio</a>
+            <Link to="/">Inicio</Link>
             </li>
             <li>
-              <a>Películas</a>
+            <Link to="/peliculas">Películas</Link>
             </li>
             <li>
-              <a>Nosotras</a>
+            <Link to="/nosotras">Nosotras</Link>
             </li>
             <li>
               <a>Contacto</a>
@@ -48,13 +49,13 @@ function Header() {
         <div className="hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Inicio</a>
+            <Link to="/">Inicio</Link>
             </li>
             <li>
-              <a>Películas</a>
+            <Link to="/peliculas">Películas</Link>
             </li>
             <li>
-              <a>Nosotras</a>
+            <Link to="/nosotras">Nosotras</Link>
             </li>
             <li>
               <a>Contacto</a>
