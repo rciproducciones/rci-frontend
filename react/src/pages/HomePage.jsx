@@ -2,6 +2,7 @@ import "../css/App.css";
 import "../css/HomePage.css";
 import logorci from "../assets/images/logorci.png";
 import Carousel from "../components/Carousel";
+import CatalogPage from "../components/CatalogPage"
 
 function HomePage() {
   return (
@@ -67,7 +68,9 @@ function HomePage() {
           </ul>
         </div>
       </div>
-  
+  <div>
+<CatalogPage></CatalogPage>
+  </div>
       <footer className="footer footer-center p-10 bg-zinc-600 text-primary-content">
   <aside>
     <p>© 2024 RCI Producciones | Murcia</p>

@@ -1,0 +1,29 @@
+.catalog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    max-width: 800px; 
+    margin: 0 auto;  /* Centra el contenedor */
+  }
+  
+  .catalog-item {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s; 
+  }
+  
+  .catalog-item:hover {
+    background-color: #ccc; 
+  }
+  
+  .catalog-item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .catalog-item:hover img {
+    filter: grayscale(100%); 
+  }
+  
