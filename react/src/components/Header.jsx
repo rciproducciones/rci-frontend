@@ -41,7 +41,7 @@ function Header() {
             <Link to="/nosotras">Nosotras</Link>
             </li>
             <li>
-              <a>Contacto</a>
+            <Link to="/contacto">Contacto</Link>
             </li>
           </ul>
         </div>
@@ -58,7 +58,7 @@ function Header() {
             <Link to="/nosotras">Nosotras</Link>
             </li>
             <li>
-              <a>Contacto</a>
+            <Link to="/contacto">Contacto</Link>
             </li>
           </ul>
         </div>
