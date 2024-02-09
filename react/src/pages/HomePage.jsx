@@ -1,3 +1,4 @@
+import React from "react";
 import { useLocation } from "react-router-dom";
 import "../css/HomePage.css";
 import Header from "../components/Header";
@@ -10,7 +11,7 @@ function HomePage() {
   const isHomePage = location.pathname === "/";
 
   return (
-    <div className={`home-page-container ${isHomePage ? "transparent-header" : "normal-header"}`}>
+    <div className={`home-page-container ${isHomePage ? "transparent-header" : ""}`}>
       <Header isTransparent={isHomePage} />
       <Carousel />
       <CatalogPage />
