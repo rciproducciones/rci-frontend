@@ -1,4 +1,4 @@
-import "../css/FilmDetails.css";
+import { Link } from "react-router-dom";
 
 function FilmDescription() {
   return (
@@ -8,45 +8,76 @@ function FilmDescription() {
           <figure>
             <img src="src/assets/images/postermigas.png" alt="Album" />
           </figure>
-          <div className="card-body">
-            <h2 className="card-title">Título</h2>
-            <p>Migas de pan</p>
-            <h2 className="card-title">Dirección</h2>
-            <p>Manane Rodríguez</p>
-            <h2 className="card-title">Intérpretes</h2>
-            <p>
-              Cecilia Roth, Ernesto Chao, Andrea Davidovics, Quique Fernández,
-              Justina Bustos
-            </p>
-            <h2 className="card-title">Duración</h2>
-            <p>109 minutos</p>
-          </div>
-        </div>
-        </div>
-
-        <div className="other-info">
-            <h2>Sinopsis</h2>
-          <div className="trailer">
-            <p>Al enterarse de que ha sido abuela, Liliana Pereira vuelve a su país para enfrentarse a su pasado. Un pasado conflictivo que le ha costado persecución, secuestro, torturas, violación y años de presidio bajo una dictadura militar, así como la pérdida de la custodia de su único hijo. Víctima junto con otras mujeres de una agresión sistemática y despiadada, es del apoyo mutuo entre ellas, de su solidaridad no calculada pero tenaz, de donde sigue sacando fuerzas para continuar luchando. Ahora Liliana se ve abocada a elegir entre lo que le pide su corazón y lo que le dicta su conciencia.</p>
-          </div>
-        </div>
-
-        <div className="other-info">
-            <h2>Trailer</h2>
-          <div className="trailer">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/BdHoxYyKeT0?si=7lRqvgCsWxgFiFbZ"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
+          <div className="card-body flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4 items-center lg:items-start">
+            <div className="lg:w-1/2 text-center lg:text-left">
+              <h2 className="card-title-1 mb-4">Migas de pan</h2>
+              <h2 className="card-title">Año</h2>
+              <p className="mb-2">2016</p>
+              <h2 className="card-title">Duración</h2>
+              <p className="mb-2">109 min.</p>
+              <h2 className="card-title">Género</h2>
+              <p className="mb-2">
+                Drama | Basado en hechos reales. Dictadura uruguaya
+              </p>
+            </div>
+            <div className="lg:w-1/2 text-center lg:text-left">
+              <h2 className="card-title">Nacionalidad</h2>
+              <p className="mb-2">Uruguay, España</p>
+              <h2 className="card-title">Producido por</h2>
+              <p className="mb-2">RCI producciones, Xamalú Filmes</p>
+              <h2 className="card-title">Dirigida por</h2>
+              <p className="mb-2">Manane Rodríguez</p>
+              <h2 className="card-title">Escrita por</h2>
+              <p className="mb-2">Xavier Bermúdez y Manane Rodríguez</p>
+            </div>
           </div>
         </div>
       </div>
-   
+
+      <div className="other-info">
+  <div className="trailer leading-5">
+    <p>
+      Candidata al Oscar por Uruguay y con Cecilia Roth como protagonista,
+      "Migas de Pan" es un poderoso relato denuncia que visibiliza los horrores
+      y abusos que la dictadura uruguaya infingió en miles de mujeres. Al
+      enterarse de que es abuela, Liliana Pereira regresa a su país, Uruguay.
+      Allí tendrá que enfrentarse a un pasado conflictivo que le costó
+      persecución, años de presidio bajo una dictadura militar, así como la
+      pérdida de la custodia de su único hijo. Víctima junto con otras mujeres
+      de una agresión sistemática y despiadada, es del apoyo mutuo entre ellas,
+      de su solidaridad no calculada pero tenaz, de donde sigue sacando
+      fuerzas para continuar luchando.
+    </p>
+  </div>
+</div>
+
+
+      <div className="other-info">
+        <div className="trailer w-full lg:w-1/2">
+          <iframe
+            width="620"
+            height="450"
+            src="https://www.dailymotion.com/embed/video/x7tzhua?"
+            title="Migas de pan video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+
+      <div className="other-info">
+  <div className="trailer w-full">
+    <h2 className="card-title-2">Enlaces de interés</h2>
+    <div className="trailer text-center">
+      <Link to="https://www.filmaffinity.com/es/film965224.html" target="_blank" rel="noopener noreferrer" className="btn">
+        Filmaffinity
+      </Link>
+    </div>
+  </div>
+</div>
+
+    </div>
   );
 }
 
