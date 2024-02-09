@@ -1,3 +1,20 @@
-.contact-form{
+.contact-form {
     margin: 80px;
+    padding: 30px;
 }
+
+.submit-btn {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #7a2d82;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: white;
+    color: #7a2d82;
+  }
+  
