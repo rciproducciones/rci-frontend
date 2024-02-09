@@ -13,8 +13,8 @@ function App() {
     <>
     <Routes>
     <Route path="/" element={<HomePage />} />
-    <Route path="/peliculas" element={<Films />} />
-    <Route path="/nosotras" element={<AboutUs />} />
+    <Route path="/producciones" element={<Films />} />
+    <Route path="/equipo" element={<AboutUs />} />
     <Route path="/contacto" element={<Contact />} />
     <Route path="/filmId" element={<FilmDetails />} />
 

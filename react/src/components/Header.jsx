@@ -1,17 +1,14 @@
-import "../css/Header.css";
 import { Link } from "react-router-dom";
 import logorci from "../assets/images/logorci.png";
+import "../css/Header.css";
 
-function Header() {
+function Header({ isTransparent }) {
+  const headerClass = isTransparent ? "transparent-header" : "normal-header";
+
   return (
-    <>
-      <Link to="/">
-        <div className="logocontainer">
-          <img className="logorci" src={logorci} alt="Logo RCI" />
-        </div>
-      </Link>
-
-      <div className="navbar bg-zinc-50 flex justify-center">
+    <div className={`header-container ${headerClass}`}>
+      <div className="navbar bg-zinc-50 flex flex-col lg:flex-column justify-between items-center">
+        {" "}
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
@@ -37,27 +34,31 @@ function Header() {
               <Link to="/">Inicio</Link>
             </li>
             <li>
-              <Link to="/peliculas">Películas</Link>
+              <Link to="/producciones">Producciones</Link>
             </li>
             <li>
-              <Link to="/nosotras">Nosotras</Link>
+              <Link to="/equipo">Equipo</Link>
             </li>
             <li>
               <Link to="/contacto">Contacto</Link>
             </li>
           </ul>
         </div>
-
-        <div className="hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
+        <div className="hidden lg:flex items-center">
+          <ul className="menu menu-horizontal px-1 items-center">
             <li>
               <Link to="/">Inicio</Link>
             </li>
             <li>
-              <Link to="/peliculas">Películas</Link>
+              <Link to="/producciones">Producciones</Link>
+            </li>
+            <li className="logo-container">
+              <Link to="/">
+                <img className="logorci" src={logorci} alt="Logo RCI" />
+              </Link>
             </li>
             <li>
-              <Link to="/nosotras">Nosotras</Link>
+              <Link to="/equipo">Equipo</Link>
             </li>
             <li>
               <Link to="/contacto">Contacto</Link>
@@ -65,7 +66,7 @@ function Header() {
           </ul>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
