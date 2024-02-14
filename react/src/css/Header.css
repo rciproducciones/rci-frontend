@@ -10,6 +10,9 @@
   left: 0;
   right: 0;
   background-color: #ffffff; /* Fondo normal por defecto */
+  color: white;
+  font-size: x-large;
+  font-weight: 600;
 }
 
 /* Estilos para el fondo transparente del header en la HomePage */
