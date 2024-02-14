@@ -36,3 +36,20 @@
 .card-title {
   margin-bottom: 3px;
 }
+
+.btn-other-links {
+  @apply btn;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s, color 0.3s;
+  background-color: #7a2d82;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-other-links:hover {
+  background-color: white;
+  color: #7a2d82;
+}
+

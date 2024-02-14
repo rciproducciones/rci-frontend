@@ -67,10 +67,10 @@ function FilmDescription() {
       </div>
 
       <div className="other-info">
-  <div className="trailer w-full">
-    <h2 className="card-title-2">Enlaces de interés</h2>
+  <div className="trailer leading-10">
+  {/* <h2 className="card-title-2">Enlaces de interés</h2>*/}
     <div className="trailer text-center">
-      <Link to="https://www.filmaffinity.com/es/film965224.html" target="_blank" rel="noopener noreferrer" className="btn">
+      <Link to="https://www.filmaffinity.com/es/film965224.html" target="_blank" rel="noopener noreferrer" className="btn-other-links">
         Filmaffinity
       </Link>
     </div>
