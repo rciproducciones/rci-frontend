@@ -4,10 +4,15 @@ import "../css/FilmDetails.css";
 import Footer from "../components/Footer";
 import FilmDescription from "../components/FilmDescription";
 
+const imageSrc = 'src/assets/images/producciones-cover.png';
+
 function FilmDetails() {
     return(
         <>
 <Header></Header>
+<div>
+      <img className="cover-img" src={imageSrc} alt="Producciones Cover" />
+      </div>
 <FilmDescription></FilmDescription>
 <Footer></Footer>
 </>

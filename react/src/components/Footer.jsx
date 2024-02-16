@@ -14,7 +14,7 @@ function Footer() {
             <Link
               to="https://www.instagram.com/rciproducciones/"
               target="_blank"
-              className="hover:text-purple-500 transition duration-300"
+              className="hover:text-gray-500 transition duration-300"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

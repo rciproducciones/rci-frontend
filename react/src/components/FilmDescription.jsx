@@ -3,8 +3,23 @@ import { Link } from "react-router-dom";
 function FilmDescription() {
   return (
     <div className="container">
+       <div className="other-info">
+        <div className="trailer w-full">
+          <iframe
+            width="1200"
+            height="500"
+            src="https://www.dailymotion.com/embed/video/x7tzhua?"
+            title="Migas de pan video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+
+      
       <div className="film-card">
-        <div className="card lg:card-side bg-base-100 shadow-xl">
+        <div className="card lg:card-side bg-base-100 shadow-xl rounded-none">
           <figure>
             <img src="src/assets/images/postermigas.png" alt="Album" />
           </figure>
@@ -34,7 +49,7 @@ function FilmDescription() {
         </div>
       </div>
 
-      <div className="other-info">
+      <div className="other-info text-center">
   <div className="trailer leading-5">
     <p>
       Candidata al Oscar por Uruguay y con Cecilia Roth como protagonista,
@@ -52,31 +67,9 @@ function FilmDescription() {
 </div>
 
 
-      <div className="other-info">
-        <div className="trailer w-full lg:w-1/2">
-          <iframe
-            width="620"
-            height="450"
-            src="https://www.dailymotion.com/embed/video/x7tzhua?"
-            title="Migas de pan video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          ></iframe>
-        </div>
-      </div>
+     
 
-      <div className="other-info">
-  <div className="trailer leading-10">
-  {/* <h2 className="card-title-2">Enlaces de interés</h2>*/}
-    <div className="trailer text-center">
-      <Link to="https://www.filmaffinity.com/es/film965224.html" target="_blank" rel="noopener noreferrer" className="btn-other-links">
-        Filmaffinity
-      </Link>
-    </div>
-  </div>
-</div>
-
+      
     </div>
   );
 }

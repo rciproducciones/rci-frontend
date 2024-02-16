@@ -5,25 +5,25 @@
 }
 
 .header-container {
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  background-color: #ffffff; /* Fondo normal por defecto */
+  background-color: transparent; /* Fondo normal por defecto */
   color: white;
   font-size: x-large;
   font-weight: 600;
 }
 
 /* Estilos para el fondo transparente del header en la HomePage */
-.home-page-container.transparent-header .header-container {
+.transparent-header .header-container {
   position: absolute;
   background-color: transparent;
   z-index: 2; /* Asegura que el Header esté en la capa superior solo en la HomePage con fondo transparente */
 }
 
 /* Anula el fondo en línea de Tailwind */
-.home-page-container .navbar {
+.navbar {
   background-color: transparent !important;
 }
 
@@ -39,5 +39,5 @@
 
 .logorci {
   height: auto;
-  max-width: 200px;
+  max-width: 280px;
 }
