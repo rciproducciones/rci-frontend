@@ -1,33 +1,35 @@
 
 .about-container {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 50px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 30px 100px 0px 300px;
 }
 
 .description-container{
-    margin: 50px 150px 50px 150px;
-    padding: 10px;
-    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    align-items: flex-start;
+    text-align: left;
     max-width: 60vw;
     line-height: 1.5;
 }
 
 .text-description {
-  font-weight: 600;
+  font-weight: 700;
+  text-align: left;
 }
 
 .card-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  text-justify: auto;
   max-width: 60%;
-  text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   line-height: 1.5;
   max-width: 30vw;
+  
 }
 
 .ceci-container {
@@ -39,7 +41,7 @@
 }
 
 .img {
-  height: 35vh;
+  height: 50vh;
   width: auto;
   border-radius: 0%;
   justify-content: center;
@@ -66,4 +68,12 @@ color: #555;
 
 .title1 {
   color:#7a2d82;
+}
+
+.img-producer {
+  height: 55vh;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
 }

@@ -3,21 +3,7 @@ import { Link } from "react-router-dom";
 function FilmDescription() {
   return (
     <div className="container">
-       <div className="other-info">
-        <div className="trailer w-full">
-          <iframe
-            width="1200"
-            height="500"
-            src="https://www.dailymotion.com/embed/video/x7tzhua?"
-            title="Migas de pan video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          ></iframe>
-        </div>
-      </div>
-
-      
+  
       <div className="film-card">
         <div className="card lg:card-side bg-base-100 shadow-xl rounded-none">
           <figure>
@@ -65,6 +51,24 @@ function FilmDescription() {
     </p>
   </div>
 </div>
+
+<div>
+<button className="btn-other-links">Enlace de interés</button>
+</div>
+
+<div className="other-info">
+        <div className="trailer w-full">
+          <iframe
+            width="1200"
+            height="500"
+            src="https://www.dailymotion.com/embed/video/x7tzhua?"
+            title="Migas de pan video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
 
 
      

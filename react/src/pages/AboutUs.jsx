@@ -2,9 +2,10 @@ import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import CeciliaPic from "../assets/images/Scan_Pic0001 (2).png";
-import "../css/AboutUs.css"; // Estilos específicos para esta página
+import "../css/AboutUs.css"; 
 
 const imageSrc = 'src/assets/images/equipo-cover.png';
+const imgProducer = 'src/assets/images/11zon.jpg';
 
 function AboutUs() {
   return (
@@ -14,13 +15,16 @@ function AboutUs() {
       <img className="cover-img" src={imageSrc} alt="Equipo Cover" />
       </div>
 
+      <h1 className="title1 text-3xl font-bold mb-4">Producciones RCI</h1>
+
       <div className="about-container">
         <div className="description-container">
-          <h1 className="title1 text-3xl font-bold mb-4">Producciones Imaginarias RCI</h1>
-          <br></br>
           <p className="text-description">
             Una productora audiovisual dedicada a temas sociales, históricos y arqueológicos. Nuestro enfoque es la visibilización de desigualdades a través de diversas obras audiovisuales, incluyendo ficción, documentales, publicitarios y programas de televisión.
           </p>
+          <div>
+      <img className="img-producer" src={imgProducer} alt="Equipo" />
+      </div>
         </div>
 
         <div className="card-container">

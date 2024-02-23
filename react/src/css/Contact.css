@@ -7,13 +7,17 @@
 .main-container {
   width: 100vw;
   margin: 0;
-  padding: 0;
+  padding: 0px;
+  justify-content: center;
 }
 
 .contact-form {
+  width: 540px;
+}
+
+.contact-form-container {
   padding: 30px;
-  width: 100%; /* Ocupa el ancho completo del contenedor */
-  margin: 0 auto; /* Centra el formulario horizontalmente */
+  margin: auto;
 }
 
 .submit-btn {
@@ -34,9 +38,9 @@
 }
 
 .location-container {
-  margin: 80px 80px; /* Ajusta el margen superior e inferior */
+  margin: auto; /* Ajusta el margen superior e inferior */
   text-align: center;
-  line-height: 25px; /* Centra el contenido horizontalmente */
+  line-height: 25px;
 }
 
 .location {

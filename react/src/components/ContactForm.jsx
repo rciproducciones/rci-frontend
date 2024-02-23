@@ -27,17 +27,17 @@ const ContactForm = () => {
 
   return (
     <div>
-      <h1 className="title1 text-3xl font-bold mb-4">¡Contacta aquí!</h1>
-      <div className="main-container">
-        <div className="contact-form w-full flex flex-col items-center">
+      <h1 className="title1 text-3xl font-bold mb-4">Amamos las historias. ¡Cuéntanos la tuya!</h1>
+      <div className="main-container flex h-full">
+        <div className="contact-form-container items-center">
           <form
             onSubmit={handleSubmit}
-            className="max-w-md w-full p-12 bg-gray-100 shadow-md rounded-lg"
+            className="contact-form p-12 bg-gray-100 shadow-md rounded-lg"
           >
             <div className="mb-4">
               <label
                 htmlFor="name"
-                className="block text-sm font-semibold text-gray-600"
+                className="flex-grow block text-sm font-semibold text-gray-600"
               >
                 Nombre y Apellidos
               </label>
@@ -99,7 +99,7 @@ const ContactForm = () => {
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
-                className="w-full p-2 mt-2 border rounded"
+                className="w-full p-12 mt-2 border rounded"
                 required
               />
             </div>
@@ -125,6 +125,7 @@ const ContactForm = () => {
               Enviar
             </button>
           </form>
+          </div>
 
           <div className="location-container">
             <div className="location">
@@ -151,7 +152,7 @@ const ContactForm = () => {
                 <FaMapMarkerAlt className="inline-block mr-2" />
                 Murcia, 30003
               </p>
-            </div>
+            
           </div>
         </div>
       </div>
