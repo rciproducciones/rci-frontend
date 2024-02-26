@@ -1,6 +1,16 @@
+.title2 {
+  color: #7a2d82;
+  text-align: center;
+  font-style: italic;
+  font-size: 150%;
+  padding: 0px 50px 0px 50px;
+}
+
 .title1 {
   color: #7a2d82;
   text-align: center;
+ 
+  font-size: 150%;
   padding: 50px 50px 0px 50px;
 }
 
@@ -9,10 +19,13 @@
   margin: 0;
   padding: 0px;
   justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-form {
-  width: 540px;
+  width: 30vw;
+
 }
 
 .contact-form-container {
@@ -37,12 +50,6 @@
   color: #7a2d82;
 }
 
-.location-container {
-  margin: auto; /* Ajusta el margen superior e inferior */
-  text-align: center;
-  line-height: 25px;
-}
-
-.location {
-  margin-bottom: 30px;
+.inline-block {
+  justify-content: center;
 }
