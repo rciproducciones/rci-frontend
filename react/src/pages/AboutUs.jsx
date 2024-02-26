@@ -1,11 +1,10 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import CeciliaPic from "../assets/images/Scan_Pic0001 (2).png";
+import CeciliaPic from "../assets/images/Scan_Pic0001 (2).jpeg";
 import "../css/AboutUs.css"; 
 
 const imageSrc = 'src/assets/images/equipo-cover.png';
-const imgProducer = 'src/assets/images/11zon.jpg';
 
 function AboutUs() {
   return (
@@ -22,10 +21,9 @@ function AboutUs() {
           <p className="text-description">
             Una productora audiovisual dedicada a temas sociales, históricos y arqueológicos. Nuestro enfoque es la visibilización de desigualdades a través de diversas obras audiovisuales, incluyendo ficción, documentales, publicitarios y programas de televisión.
           </p>
-          <div>
-      <img className="img-producer" src={imgProducer} alt="Equipo" />
-      </div>
         </div>
+
+        <div className="divider"></div>
 
         <div className="card-container">
           <div className="ceci-container">
@@ -33,11 +31,10 @@ function AboutUs() {
           </div>
 
           <div className="cv-container flex flex-col justify-center rounded-none">
-            <h1 className="title2">Cecilia Ibáñez</h1>
+            <h1>Cecilia Ibáñez</h1>
             <p className="text-gray-700">
               Directora, guionista y productora con una destacada carrera en la creación de obras audiovisuales. Inició sus estudios en Dirección de Cine en Madrid y se formó con reconocidos profesionales del sector. Su experiencia abarca desde largometrajes hasta cortometrajes, documentales y programas de televisión.
             </p>
-            {/* Puedes agregar más información sobre el CV según tus necesidades */}
           </div>
         </div>
 
