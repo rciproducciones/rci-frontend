@@ -19,7 +19,7 @@ function AboutUs() {
       <div className="about-container">
         <div className="description-container">
           <p className="text-description">
-            Una productora audiovisual dedicada a temas sociales, históricos y arqueológicos. Nuestro enfoque es la visibilización de desigualdades a través de diversas obras audiovisuales, incluyendo ficción, documentales, publicitarios y programas de televisión.
+            Una productora audiovisual dedicada a temas sociales, históricos y arqueológicos. Nuestro enfoque es la visibilización de desigualdades a través de diversos géneros audiovisuales, incluyendo ficción, documentales, publicitarios y programas de televisión.
           </p>
         </div>
 

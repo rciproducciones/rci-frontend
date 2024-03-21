@@ -28,7 +28,7 @@ function Header({ isTransparent }) {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-zinc-50 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-violet-600 rounded-box w-52"
           >
             <li>
               <Link to="/">Inicio</Link>
@@ -53,7 +53,7 @@ function Header({ isTransparent }) {
               <Link to="/producciones">Producciones</Link>
             </li>
             <li className="logo-container">
-              <Link to="/">
+              <Link to="/" className="logorci-link"  style={{ textDecoration: 'none', backgroundColor: 'transparent' }}>
                 <img className="logorci" src={logorci} alt="Logo RCI" />
               </Link>
             </li>

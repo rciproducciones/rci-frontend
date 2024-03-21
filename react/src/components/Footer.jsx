@@ -5,9 +5,10 @@ import { FaPhone, FaMapMarkerAlt, FaBuilding } from "react-icons/fa";
 function Footer() {
   return (
     <div className="footer-container">
-      <footer className="footer footer-center p-10">
-        <aside>
-          <p>© 2024 RCI Producciones </p>
+      <footer className="footer p-10">
+        
+          
+          <div className="directions">
           <p>
             <FaPhone className="inline-block mr-2" />
             <a href="tel:+34630374129">+34 630 37 41 29</a>
@@ -20,9 +21,14 @@ function Footer() {
             <FaBuilding className="inline-block mr-2" />
             Murcia, 30003
           </p>
-          <p>Aviso Legal y Política de Privacidad | Política de Cookies</p>
-        </aside>
-        <nav>
+          </div>
+          
+          <div className="extra-info">
+          <p className="center-text">© 2024 RCI Producciones </p>
+          <p className="center-text">Aviso Legal y Política de Privacidad</p>
+          </div>
+       
+        <div className="social-media">
           <div className="grid grid-flow-col gap-4">
             <Link
               to="https://www.instagram.com/rciproducciones/"
@@ -40,7 +46,7 @@ function Footer() {
               </svg>
             </Link>
           </div>
-        </nav>
+        </div>
       </footer>
     </div>
   );

@@ -1,6 +1,24 @@
 .footer-container {
+    display: block;
+    flex-direction: column;
     background-color: #1f2937; 
     color: #ffffff; 
     padding: 20px;
-    text-align: center;
   }
+
+  .extra-info {
+    margin: auto;
+  }
+
+  .directions {
+    margin: auto;
+  }
+
+  .social-media {
+    margin: auto;
+  }
+
+  .center-text {
+    margin: auto;
+  }
+

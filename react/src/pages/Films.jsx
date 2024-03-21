@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import CatalogPage from "../components/CatalogPage";
 import Footer from "../components/Footer";
 
-const imageSrc = 'src/assets/images/producciones-cover.png';
+const imageSrc = 'src/assets/images/producciones-cover.jpeg';
 
 function Films() {
   return (
