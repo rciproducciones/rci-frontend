@@ -8,8 +8,8 @@ import "../css/Carousel.css";
 
 
 const images = [
-  'src/assets/images/migasdepancover.jpeg',
-  'src/assets/images/feminismo-en-murcia.webp'
+  '../assets/images/migasdepancover.jpeg',
+  '../assets/images/feminismo-en-murcia.webp'
 ];
 
 const CustomCarousel = () => {

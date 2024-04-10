@@ -4,7 +4,7 @@ import "../css/FilmDetails.css";
 import Footer from "../components/Footer";
 import FilmDescription from "../components/FilmDescription";
 
-const imageSrc = 'src/assets/images/producciones-cover.jpeg';
+const imageSrc = '../assets/images/producciones-cover.jpeg';
 
 function FilmDetails() {
     return(

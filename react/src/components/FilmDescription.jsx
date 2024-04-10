@@ -7,7 +7,7 @@ function FilmDescription() {
       <div className="film-card">
         <div className="card lg:card-side bg-base-100 shadow-xl rounded-none">
           <figure>
-            <img src="src/assets/images/postermigas.png" alt="Album" />
+            <img src="../assets/images/postermigas.png" alt="Album" />
           </figure>
           <div className="card-body flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4 items-center lg:items-start">
             <div className="lg:w-1/2 text-center lg:text-left">
