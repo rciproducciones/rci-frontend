@@ -4,7 +4,7 @@ import "../css/Contact.css";
 import Footer from "../components/Footer";
 import ContactForm from "../components/ContactForm";
 
-const imageSrc = "../assets/images/contacto-cover.png";
+const imageSrc = "../src/assets/images/contacto-cover.png";
 
 function Contact() {
   return (

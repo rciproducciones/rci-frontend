@@ -3,11 +3,11 @@ import CatalogGrid from './CatalogGrid.jsx';
 import "../css/CatalogPage.css"
 
 const posters = [
-  { imageUrl: '../assets/images/postermigas.png'},
-  { imageUrl: '../assets/images/defaultimg.png'},
-  { imageUrl: '../assets/images/defaultimg.png'},
-  { imageUrl: '../assets/images/defaultimg.png'},
-  { imageUrl: '../assets/images/defaultimg.png'},
+  { imageUrl: '../src/assets/images/postermigas.png'},
+  { imageUrl: '../src/assets/images/defaultimg.png'},
+  { imageUrl: '../src/assets/images/defaultimg.png'},
+  { imageUrl: '../src/assets/images/defaultimg.png'},
+  { imageUrl: '../src/assets/images/defaultimg.png'},
   
 ];
 

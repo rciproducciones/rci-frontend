@@ -6,10 +6,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import "../css/Carousel.css";
 
-
 const images = [
-  '../assets/images/migasdepancover.jpeg',
-  '../assets/images/feminismo-en-murcia.webp'
+  '../src/assets/images/migasdepancover.jpeg',
+  '../src/assets/images/feminismo-en-murcia.webp'
 ];
 
 const CustomCarousel = () => {
